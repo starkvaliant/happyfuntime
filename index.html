@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>HTML Happy Fun Time</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600,400' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <header>
+            <h1>HTML Happy Fun Time</h1>
+            <p>Welcome <span class='name'>Stephanie</span> to the most fun you'll have all day.</p>        
+        </header>
+
+        <div class="widget">
+            <div class='container'>
+                <form action="" method="post">
+                    <input type="text" placeholder="What needs to be done?">
+                </form>
+            </div>
+
+            <div id='tasks'>
+                <h3>Tasks</h3>
+                <p>You will be editing the following files: <span>index.html</span>, <span>css/main.css.</span> and <span>js/app.js</span></p>
+                <ol>
+                    <li class="completed">Add your name in the <code>span.name</code> element</li>
+                    <li class="completed">Add the class <code>completed</code> onto each list item you have completed (and every one hereafter)</li>
+                    <li class="completed">Change the page title to "HTML Happy Fun Time" (without the quotes)</li>
+                    <li class="completed">Change the <code>h1</code> text in this page's header to "HTML Happy Fun Time" (without the quotes)</li>
+                    <li class="completed">Make the font for the class <code>name</code> be blue and bold</li>
+                    <li class="completed">Make the <code>#tasks ol li</code> elements turn the cursor to a pointer</li>
+                    <li class="completed">Create a <code>form</code> in the <code>div.container</code>, then create a text <code>input</code> in the <code>form</code>.</li>
+                    <li class="completed">On the <code>input</code>, add a place holder of <code>What needs to be done?</code></li>
+                    <li class="completed">Capture the submit event on the <code>form</code> and prevent it from reloading the page.</li>
+                    <li class="completed">On submit, get the input value and append it to the <code>#tasks ol</code></li>
+                    <li class="completed">BONUS: Using CSS Only: if elements with the class <code>name</code> are not empty, add a comma at the end of the element</li>
+                </ol>
+            </div>
+        </div>
+
+        <script src="js/jquery-1.10.2.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>

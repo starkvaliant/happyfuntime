@@ -1,0 +1,76 @@
+body {
+  background-color: #efefef;
+  font-family: 'Open Sans', sans-serif;
+}
+span {
+  font-weight: 600;
+}
+h1, h3, p {
+  font-weight: 300;
+  line-height: 48px;
+  margin: 0;
+}
+header, .widget {
+  width: 50%;
+  margin: 0 auto;
+}
+header {
+  padding: 24px 0;
+  text-align: center;
+  color: #333;
+}
+header p {
+  line-height: 48px;
+  font-size: 18px;
+  color: #666;
+}
+code {
+  margin: 0 2px;
+  padding: 0px 5px;
+  border: 1px solid #ddd;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+.name {
+  font-weight: bold;
+  color: blue;
+}
+.name:not(:empty):after{
+  content:',';
+}
+.widget {
+  background-color: #fff;
+  border-bottom: 2px solid #e5e5e5;
+  border-radius: 3px;
+  margin: 0 auto;
+  padding: 24px 20px;
+}
+.container {
+  width: 100%;
+}
+.container form {
+  text-align: center;
+  padding: 10px 0;
+}
+.container input {
+  border: 1px solid #ccc; 
+  font-size: 14px;
+  width: 600px;
+  padding: 12px;
+}
+#tasks h3 {
+  border-bottom: 1px solid #e5e5e5;
+}
+#tasks p {
+  color: #333;
+}
+#tasks ol li {
+  cursor: pointer;
+}
+#tasks li {
+  line-height: 30px;
+}
+#tasks li.completed {
+  color: #999;
+  text-decoration: line-through;
+}
